@@ -1,0 +1,37 @@
+# Code Samples
+# Initialize a new string:
+
+String.new
+
+# Initialize a new string with an argument:
+
+String.new("Jason")
+
+# Initialize a new array:
+
+Array.new
+
+# Creating your own initialize method:
+
+class MyClass
+  def initialize
+    puts "This is the initialize method."
+  end
+end
+
+MyClass.new
+
+# This will print out the following:
+
+# This is the initialize method.
+
+
+# Coding Challenge
+
+# 1. Instantiate a new instance of the String class and assign the newly instantiated instance to the variable string.
+
+string = String.new
+
+# 2. Instantiate a new instance of the Array class and assign the newly instantiated instance to the variable array.
+
+array = Array.new

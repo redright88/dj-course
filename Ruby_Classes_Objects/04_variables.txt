@@ -1,0 +1,90 @@
+# Code Samples
+
+class Name
+  def initialize(title, first_name, middle_name, last_name)
+    @title = title
+
+# Instance variable is created using the "@" symbol
+
+  end
+
+  def title
+    @title
+  end
+
+  def first_name
+    “Jason”
+  end
+
+  def middle_name
+    “”
+  end
+
+  def last_name
+    “Seifer”
+  end
+end
+
+
+name = Name.new("Mr.")
+puts name.title + " " +
+     name.first_name + " " +
+     name.middle_name + " " +
+     name.last_name
+
+
+Coding Challenge:
+1. In the initialize method of the Name class, set an instance variable called @title to the title argument. Note: you will have to write the initialize method.
+
+class Name
+  def initialize(title)
+    @title = title
+  end
+  def first_name
+    "Metal"
+  end
+  
+  def last_name
+    "Robot"
+  end
+end
+
+
+2. Below the Name class, instantiate a new Name instance set to the variable name with any title you choose.
+
+class Name
+  def initialize(title)
+    @title = title
+  end
+  def first_name
+    "Metal"
+  end
+  
+  def last_name
+    "Robot"
+  end
+end
+
+name = Name.new("Hello")
+
+3. Inside the Name class, create a method called title that returns the @title variable.
+
+class Name
+  def initialize(title)
+    @title = title
+  end
+  def title
+    @title
+  end
+  def first_name
+    "Metal"
+  end
+  
+  def last_name
+    "Robot"
+  end
+end
+
+name = Name.new("Hello")
+name.title
+

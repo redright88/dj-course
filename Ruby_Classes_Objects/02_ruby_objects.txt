@@ -1,0 +1,14 @@
+# Code Samples
+# Instantiate an instance of the String class:
+
+string = String.new
+
+# View the methods the object supports:
+
+string.methods
+
+# Ask the object if it responds to a given method:
+
+string.respond_to?("upcase")
+
+
